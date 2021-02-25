@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+}
+
+.container {
+  text-align: center;
+  background: rgb(0, 0, 0);
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(../img/PASSWORD.jpg);
+  background-position: center;
+  height: 300px;
+}
+
+.pasword_maker {
+  color: white;
+}
+
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 50px;
+}
+
+p {
+  margin: 40px;
+  font-size: 25px;
+}
+
+span {
+  text-transform: uppercase;
+  color: coral;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.tua_pasword {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 35px;
+}
+
+footer {
+  background-color: coral;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li {
+  padding: 0 20px;
+}
