@@ -13,6 +13,7 @@ body {
 .container {
   text-align: center;
   background: rgb(0, 0, 0);
+  padding: 55px 0;
 }
 
 .jumbotron {
@@ -25,7 +26,7 @@ body {
   height: 300px;
 }
 
-.pasword_maker {
+.password_maker {
   color: white;
 }
 
@@ -46,11 +47,31 @@ span {
 
 h2 {
   font-size: 32px;
+  padding: 20px;
 }
 
-.tua_pasword {
+.password {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 35px;
+  animation-name: color-change;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+.super {
+  width: 100%
+}
+
+.gif {
+  width: 30%;
+  margin: 20px auto;
 }
 
 footer {

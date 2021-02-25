@@ -3,4 +3,4 @@ var nome = prompt("Come ti chiami?");
 var cognome = prompt("Qual'è il tuo cognome");
 var colore = prompt("Dicci quale è il tuo Colore Preferito");
 
-document.getElementById('tua_pasword').innerHTML = nome+cognome+colore +"21"
+document.getElementById('tua_password').innerHTML = nome+cognome+colore +"21"
